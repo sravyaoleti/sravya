@@ -16,10 +16,10 @@ class prime
 	public static void main (String[] args) throws java.lang.Exception
 	{
                 if(isPrime(11)) 
-                System.out.println(" true") ;
+                System.out.println("yes") ;
          
          else
-         System.out.println(" false");
+         System.out.println("no");
  
                  	
                  }
