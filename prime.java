@@ -15,7 +15,7 @@ class prime
             }
 	public static void main (String[] args) throws java.lang.Exception
 	{
-                if(isPrime(11)) 
+                if(isPrime(121)) 
                 System.out.println("yes") ;
          
          else
