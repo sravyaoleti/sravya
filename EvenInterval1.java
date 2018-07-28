@@ -5,8 +5,8 @@ class EvenInterval1
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int e=1;
-		int f=10;
+		int e=6;
+		int f=9;
 		while ((0<e)&&(e<f-1))
 		{
 			 e = e + 1;
