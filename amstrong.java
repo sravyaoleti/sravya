@@ -8,7 +8,7 @@ class amstrong
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		int c=0,a,temp;  
-    int n=371;//It is the number to check armstrong  
+    int n=371; 
     temp=n;  
     while(n>0)  
     {  
