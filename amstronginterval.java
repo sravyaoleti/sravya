@@ -30,8 +30,8 @@ class amstronginterval
     }
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	 int num1 = 369;
-        int num2 = 371;
+	 int num1 = 150;
+        int num2 = 160;
         findArmstrong(num1, num2);
         System.out.println();
 	}
