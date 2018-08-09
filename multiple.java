@@ -14,7 +14,7 @@ class Ideone
       for(i=1;i<=5;i++)
       {
           mul=i*n;
-          System.out.println(n+"*"+i+"="+mul);
+          System.out.println(+mul);
       }
 	}
 }
