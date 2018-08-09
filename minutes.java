@@ -8,7 +8,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-System.out.println("enter the time in minutes :");
+System.out.print("");
 int min=sc.nextInt();
 int hr=0,min1=0;
 if(min>0)
