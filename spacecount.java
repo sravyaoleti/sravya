@@ -9,14 +9,17 @@ class Ideone
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		int count=1,i=0;
-		String s=sc.next();
-                      String arr[]=s.split("\t");
-    //OOPHelper.println("Number of spaces are: "+arr.length);
-    for(i=1;i<s.length()-1;i++)
-    {
-	count++;	
-    }
-    System.out.println(""+count);
+		int i,count=0;
+	String s="";
+	s+=sc.nextLine();
+	String[] words=s.split("\\s");
+	for(i=0;i<words.length;i++)
+	{
+	    count++;
+	}
+    
+	
+	
+	System.out.print(count-1);
 	}
 }
