@@ -9,7 +9,7 @@ class Ideone
 	{
 	   int i,n,mul;
       Scanner scan=new Scanner(System.in);
-      System.out.print("enter the variable ");
+      System.out.print("");
       n=scan.nextInt();
       for(i=1;i<=5;i++)
       {
