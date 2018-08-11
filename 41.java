@@ -7,12 +7,14 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner ob=new Scanner(System.in);
-		String name=ob.nextLine();
-		int n=ob.nextInt();
+		Scanner sc=new Scanner(System.in);
+		String s;
+		int n;
+		s=sc.next();
+		n=sc.nextInt();
 		for(int i=1;i<=n;i++)
 		{
-			System.out.println(name);
+			System.out.println(s);
 		}
 	}
 }
