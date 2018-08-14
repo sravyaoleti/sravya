@@ -20,10 +20,10 @@ class Codechef
 	    }
 	    if(count==1)
 	    {
-	        System.out.println("YES");
+	        System.out.println("yes");
 	    }
 	    else{
-	        System.out.println("NO");
+	        System.out.println("no");
 	    }
 	    
 	}
