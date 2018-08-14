@@ -7,12 +7,20 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner s = new Scanner (System.in);
-		int n = s.nextInt();
-		if (n % 2 == 0)
-		  System.out.println("yes");
-		  else
-		   System.out.println("no");
-
+		int a,b,f=0;
+     Scanner s=new Scanner(System.in);
+     a=s.nextInt();
+     while(a!=1){
+         if(a%2!=0){
+             f=1;
+         }
+         a=a/2;
+        }
+     if(f==1){
+         System.out.println("No");
+     }
+ else{
+         System.out.println("Yes");
+ }
 	}
 }
