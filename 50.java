@@ -17,10 +17,10 @@ class Ideone
          a=a/2;
         }
      if(f==1){
-         System.out.println("No");
+         System.out.println("no");
      }
  else{
-         System.out.println("Yes");
+         System.out.println("yes");
  }
 	}
 }
