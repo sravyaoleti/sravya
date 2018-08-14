@@ -15,6 +15,6 @@ class Ideone
 			n = n/ 10;
 			count++;
 		}
-		System.out.print(" " +count);
+		System.out.print("" +count);
 	}
 }
