@@ -7,8 +7,10 @@ class Vowel
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		char ch='a';
-		if(ch =='a'|| ch =='e'|| ch=='i'|| ch=='o'|| ch=='u')
+		char ch;
+		Scanner sc=new Scanner(System.in);
+		chr=ch.nextInt();
+		if(chr =='a'|| chr =='e'|| chr=='i'|| chr=='o'|| chr=='u')
 		System.out.println("Vowel");
 		else
 		System.out.println("consonant");
